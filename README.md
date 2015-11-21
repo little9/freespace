@@ -26,7 +26,7 @@ Freespace::get_free_space('/','GB')
 
 ```
 
-This will return a hash with the amount of freespace and unit:
+This will return a hash with the amount of freespace and the unit being used:
 
 ```ruby
 
