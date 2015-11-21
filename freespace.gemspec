@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = ["Get the amount of free space at a filesystem path"]
   spec.description   = ["A simple module that uses data from sys-filesystem to get a human readable amount of free space on a path"]
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/little9/freespace"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
