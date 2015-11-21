@@ -8,7 +8,7 @@ module Freespace
   GB = 1073741824
   TB = 1099511627776
   
-  def self.get_free_space(location,unit=nil,)
+  def self.get_free_space(location,unit=nil)
     stats = Filesystem.stat(location)
     
     if unit == 'KB'
